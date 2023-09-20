@@ -11,6 +11,7 @@ h2,
 h3,
 ul,
 p {
+  list-style-type: none;
   padding: 0;
   margin: 0;
 }
@@ -25,7 +26,7 @@ a {
 .container {
   width: 1158px;
   margin: 0 auto;
-  outline: solid green;
+  outline: solid rgb(231, 45, 12);
 }
 
 .header {
