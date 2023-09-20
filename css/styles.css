@@ -25,7 +25,7 @@ a {
 .container {
   width: 1158px;
   margin: 0 auto;
-  outline: solid red;
+  outline: solid green;
 }
 
 .header {
@@ -36,7 +36,7 @@ a {
   padding-bottom: 25px;
 }
 
-.header-container {
+.header container {
   outline: solid red;
   display: flex;
   width: 1158px;
@@ -44,7 +44,6 @@ a {
 }
 
 .navigation {
-  background-color: #434455;
 }
 .nav-list li {
   display: block;
@@ -84,8 +83,11 @@ a {
 .nav-link:focus {
   color: #404bbf;
 }
+.address-list {
+}
 
 .address-link {
+  list-style-type: none;
   text-decoration: none;
   color: #434455;
   font-size: 16px;
@@ -94,6 +96,7 @@ a {
 }
 
 .address {
+  list-style-type: none;
   font-style: normal;
 }
 .address-link:hover {
@@ -103,14 +106,15 @@ a {
   color: #404bbf;
 }
 
-.container-first-section {
+.first-section-container {
+  background-color: #2e2f42;
   outline: solid red;
+  max-width: 1158px;
 }
 
 .first-section .first-section-title {
   padding: 188px 472px 292px;
 
-  background-color: #2e2f42;
   color: var(--WHITE, #fff);
   text-align: center;
   font-size: 56px;
