@@ -29,6 +29,7 @@ a {
 }
 
 .header {
+  border-bottom: solid#e7e9fc;
   padding-right: 156px;
   padding-left: 156px;
   padding-top: 25px;
@@ -36,7 +37,10 @@ a {
 }
 
 .header-container {
-  background-color: #4d5ae5;
+  outline: solid red;
+  display: flex;
+  width: 1158px;
+  margin: 0 auto;
 }
 
 .navigation {
@@ -103,10 +107,7 @@ a {
   outline: solid red;
 }
 
-.first-section {
-}
-
-.first-section-title {
+.first-section .first-section-title {
   padding: 188px 472px 292px;
 
   background-color: #2e2f42;
