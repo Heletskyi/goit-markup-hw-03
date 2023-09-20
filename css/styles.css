@@ -3,15 +3,50 @@ body {
   background-color: #fff;
   color: #434455;
   line-height: 1.5;
-}
-ul {
   list-style-type: none;
 }
 
+h1,
+h2,
+h3,
+ul,
+p {
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  display: block;
+}
 a {
   text-decoration: none;
 }
+
+.container {
+  width: 1158px;
+  margin: 0 auto;
+  outline: solid red;
+}
+
+.header {
+  padding-right: 156px;
+  padding-left: 156px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.header-container {
+  background-color: #4d5ae5;
+}
+
+.navigation {
+  background-color: #434455;
+}
+.nav-list li {
+  display: block;
+}
 .logo-nav {
+  padding-top: 125px;
   color: var(--IRIS, #4d5ae5);
   font-family: Raleway, sans-serif;
   font-weight: 700;
@@ -64,11 +99,17 @@ a {
   color: #404bbf;
 }
 
+.container-first-section {
+  outline: solid red;
+}
+
 .first-section {
-  background-color: #2e2f42;
 }
 
 .first-section-title {
+  padding: 188px 472px 292px;
+
+  background-color: #2e2f42;
   color: var(--WHITE, #fff);
   text-align: center;
   font-size: 56px;
@@ -102,6 +143,10 @@ a {
 .first-section-button:active {
   background-color: #404bbf;
 }
+.container-advantages {
+  outline: solid red;
+}
+
 .advantages-title {
   font-family: Roboto;
   font-size: 20px;
@@ -109,6 +154,10 @@ a {
   letter-spacing: 0.4px;
   line-height: 1.2;
   color: #2e2f42;
+}
+
+.advantages-list {
+  display: flex;
 }
 
 .advantages-text {
@@ -139,6 +188,7 @@ a {
 }
 
 .teammate-name {
+  padding: 20;
   color: var(--NAVY-BLUE, #2e2f42);
   text-align: center;
   font-family: Roboto;
