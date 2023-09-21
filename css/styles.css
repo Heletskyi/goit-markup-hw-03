@@ -44,9 +44,7 @@ a {
   margin: 0 auto;
 }
 
-.navigation {
-}
-.nav-list li {
+.navigation .nav-list li {
   display: block;
 }
 .logo-nav {
@@ -84,10 +82,7 @@ a {
 .nav-link:focus {
   color: #404bbf;
 }
-.address-list {
-}
-
-.address-link {
+.address-list .address-link {
   list-style-type: none;
   text-decoration: none;
   color: #434455;
@@ -95,8 +90,11 @@ a {
   line-height: 24px;
   letter-spacing: 0.32px;
 }
-
+.address .address-link {
+  text-decoration: none;
+}
 .address {
+  text-decoration: none;
   list-style-type: none;
   font-style: normal;
 }
