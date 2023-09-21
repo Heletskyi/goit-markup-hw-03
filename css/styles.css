@@ -122,14 +122,14 @@ a {
 .service {
   padding-top: 188px;
   padding-bottom: 188px;
-  background-color: rgba(46, 47, 66, 1);
+  background-color: #2e2f42;
   letter-spacing: 1.12px;
   text-align: center;
 }
 .service-title {
   max-width: 496px;
   margin: 0 auto 48px;
-  color: rgba(255, 255, 255, 1);
+  color: #ffffff;
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
@@ -139,19 +139,20 @@ a {
   display: block;
   min-width: 169px;
   margin: 0 auto;
-  background-color: rgba(77, 90, 229, 1);
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  background-color: #4d5ae5;
+  box-shadow: 0px 4px 4px 0px #00000026;
   border-radius: 4px;
   border: none;
   padding: 16px 32px;
   line-height: 1.5;
   font-weight: 500;
-  letter-spacing: 0.64px;
+  letter-spacing: 0.04em;
+
   cursor: pointer;
 }
 .service-button:hover,
 .service-button:focus {
-  background-color: rgba(64, 75, 191, 1);
+  background-color: #404bbf;
 }
 
 /* SERVICE */
@@ -175,7 +176,7 @@ a {
 
 .features-second-title {
   font-size: 20px;
-  color: rgba(46, 47, 66, 1);
+  color: #2e2f42;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
@@ -186,12 +187,12 @@ a {
   gap: 24px;
 }
 .features-list-item {
-  flex-basis: 264px;
+  flex-basis: calc((100%-3 * 24) / 4);
 }
 /* FEATURES */
 /* TEAM */
 .team {
-  background-color: rgba(244, 244, 253, 1);
+  background-color: #f4f4fd;
 }
 .team-list {
   display: flex;
@@ -199,9 +200,8 @@ a {
 }
 .team-card {
   background-color: #ffffff;
-  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
-    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
-    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+  box-shadow: 0px 2px 1px 0px #2e2f4214, 0px 1px 1px 0px #2e2f4229,
+    0px 1px 6px 0px #2e2f4214;
   border-radius: 0px 0px 4px 4px;
   flex-basis: 264px;
   text-align: center;
